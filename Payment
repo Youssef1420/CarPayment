@@ -1,0 +1,46 @@
+public class CarPayment {
+	
+	
+	private int totalPrice; 
+	
+	private int downPayment;
+	
+	private int lengthLoan;
+	
+	private double interestRate;
+	
+	public CarPayment (int totalPrice, int downPayment, int lengthLoan, double interestRate) {
+		
+		super();
+		
+		this.totalPrice = totalPrice;
+		
+		this.downPayment = downPayment;
+		
+		this.lengthOfLoan = lengthOfLoan;
+		
+		this.interestRate = interestRate;
+	}
+	
+public double getTotalPrice()
+{
+	return totalPrice;
+}
+
+public void setTotalPrice(double totalPrice)
+{
+	this.totalPrice = totalPrice;
+}
+
+public double getDownPayment()
+{
+	return downPayment;
+}
+
+
+public double getIntrestRate()
+{
+	return intrestRate;
+}
+
+
